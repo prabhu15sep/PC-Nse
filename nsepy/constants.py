@@ -4,7 +4,7 @@ Created on Sun Nov 15 23:56:19 2015
 
 @author: jerry
 """
-import six											
+import six											#Six provides simple utilities for wrapping over differences between Python 2 and Python 3.
 
 NSE_INDICES = ["NIFTY 50",
                "NIFTY NEXT 50",
