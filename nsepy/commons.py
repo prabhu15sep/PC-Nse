@@ -7,7 +7,7 @@ Created on Sun Nov 15 23:12:26 2015
 import requests											#Requests will allow you to send HTTP/1.1 requests using Python
 from nsepy.constants import NSE_INDICES, INDEX_DERIVATIVES, DERIVATIVE_TO_INDEX
 import datetime
-from functools import partial							The functools module is for higher-order functions: functions that act on or return other functions . partial objects are like function objects in that they are callable, weak referencable, and can have attributes.
+from functools import partial							#The functools module is for higher-order functions: functions that act on or return other functions . partial objects are like function objects in that they are callable, weak referencable, and can have attributes.
 try:
     import pandas as pd
 except ImportError:
@@ -19,7 +19,7 @@ import six
 import sys
 import numpy as np
 import six
-import re
+import re                                               #This module provides regular expression matching operations similar to those found in Perl
 import sys
 
 from six.moves.urllib.parse import urlparse
